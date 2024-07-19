@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Game</title>
+    <link rel="stylesheet" href="Main.css">
+    <link rel="icon" href="Images/Logo.png">
+</head>
+
+<body id="body">
+    <section class="start">
+        <nav>
+            <div class="LanguageButtonContainer"><button onclick="EN()">EN</button><button onclick="AR()"
+                    class="ar">ع</button>
+            </div>
+        </nav>
+        <div class="TextContainer">
+            <h1 id="SwitchLanguageH1">Math Game!</h1>
+        </div>
+        <div class="ButtonDiv">
+            <button id="SwitchLanguageStartButton" onclick="start()">Start</a></button>
+        </div>
+    </section>
+
+    <section class="game">
+        <button id="TranslateReturnButton" onclick="window.scrollTo(0,0)"><svg xmlns="http://www.w3.org/2000/svg" fill="rgb(0, 227, 151)" class="bi bi-arrow-return-left" viewBox="0 0 16 16">
+            <path fill-rule="evenodd"
+              d="M14.5 1.5a.5.5 0 0 1 .5.5v4.8a2.5 2.5 0 0 1-2.5 2.5H2.707l3.347 3.346a.5.5 0 0 1-.708.708l-4.2-4.2a.5.5 0 0 1 0-.708l4-4a.5.5 0 1 1 .708.708L2.707 8.3H12.5A1.5 1.5 0 0 0 14 6.8V2a.5.5 0 0 1 .5-.5" />
+          </svg>
+            Return</button>
+            <div><h1 id="GameH1">Click Ready 👇👇👇</h1></div>
+            <br><br><br>
+            <button id="ReadyButton" onclick="StartGame()">Ready!</button>
+            <div id="twobuttons">
+                <button id="choice1" onclick="Choice1()" style="margin-right: 300px;"></button>
+                <button id="choice2" onclick="Choice2()"></button>
+            </div>
+            
+    </section>
+    <audio id="Correct">
+        <source src="sounds/correct-choice-43861.mp3">
+    </audio>
+    <audio id="InCorrect">
+        <source src="sounds/buzzer-or-wrong-answer-20582.mp3">
+    </audio>
+    <script src="Main.js"></script>
+</body>
+
+</html>ف

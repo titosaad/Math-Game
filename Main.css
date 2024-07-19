@@ -1,0 +1,201 @@
+* {
+    font-family: MyFont;
+    transition: 1s all cubic-bezier(.04, -0.01, .5, 1.34)
+}
+
+:root {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(0, 205, 137);
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    transition: 0.5s;
+    overflow: hidden;
+}
+
+h1 {
+    font-size: 10vw;
+    transition: 1s;
+}
+
+.TextContainer {
+    width: 100%;
+    text-align: center;
+    color: rgb(0, 235, 157);
+}
+
+::selection {
+    color: rgb(191, 255, 234);
+    transition: 1s;
+}
+
+.ButtonDiv button {
+    border: none;
+    background-color: rgb(0, 165, 110);
+    padding: 30px;
+    border-radius: 30px;
+    color: rgb(0, 227, 151);
+    transition: all 0.5s;
+    position: relative;
+    font-size: 5vw;
+}
+
+button:hover {
+    color: rgb(65, 255, 192);
+    font-size: 90px;
+    background-color: rgb(0, 136, 90);
+}
+
+.ButtonDiv {
+    align-content: center;
+    height: 200px;
+    padding: 0;
+}
+.ButtonDiv button:hover {
+    font-size: 7vw;
+}
+
+@font-face {
+    font-family: MyFont;
+    src: url(Red_Hat_Display/static/RedHatDisplay-Bold.ttf);
+}
+
+@font-face {
+    font-family: MyArabicFont;
+    src: url(Tajawal/Tajawal-Bold.ttf);
+}
+
+.LanguageButtonContainer {
+    display: flex;
+    background-color: rgb(0, 165, 110);
+}
+
+.LanguageButtonContainer button {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(0, 165, 110);
+    color: rgb(0, 227, 151);
+    border: none;
+    transition: 1s cubic-bezier(.04, -0.01, .5, 1.34);
+    border-radius: 10px;
+}
+
+.LanguageButtonContainer button:hover {
+    font-size: 20px;
+    background-color: rgb(0, 136, 90);
+    color: rgb(65, 255, 192);
+}
+
+a {
+    text-decoration: none;
+    color: rgb(0, 227, 151);
+    height: 100%;
+    width: 100%;
+}
+
+.game {
+    height: 100vh;
+    background-color: rgb(47, 121, 80);
+}
+
+#TranslateReturnButton {
+    border: none;
+    color: rgb(0, 227, 151);
+    background-color: transparent;
+    transition: 1s;
+}
+
+#TranslateReturnButton:hover {
+    color: rgb(65, 255, 192);
+    font-size: 20px;
+}
+
+svg {
+    fill: rgb(0, 227, 151);
+}
+
+section {
+    height: 100vh;
+}
+
+.ar {
+    font-family: MyArabicFont;
+}
+
+.RightNav {
+    float: right;
+    margin: 0;
+    height: 100%;
+}
+
+.RightNav button {
+    border-radius: 0;
+    border: none;
+    height: 50px;
+    width: 50px;
+
+}
+nav {
+    background-color: rgb(0, 165, 110);
+    height: 50px;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.LanguageButtonContainer button{
+    border-radius: 0;
+}
+.game {
+    text-align: -webkit-center;
+}
+.game h1 {
+    font-size: 7vw;
+    color: rgb(0, 227, 151);
+
+}
+.game div {
+    background-color: rgb(0, 165, 110);
+    width: fit-content;
+    border-radius: 20px;
+    transition: 1s width;
+    padding: 0 20px;
+}
+.game button#ReadyButton {
+    border: none;
+    background-color: rgb(0, 165, 110);
+    padding: 30px;
+    border-radius: 30px;
+    color: rgb(0, 227, 151);
+    transition: all 0.5s;
+    position: relative;
+    font-size: 5vw;
+}
+.game button#ReadyButton:hover {
+    color: rgb(65, 255, 192);
+    font-size: 7vw;
+    background-color: rgb(0, 136, 90);
+}
+section {
+    height: 100vh;
+}
+#twobuttons {
+    justify-content: space-between;
+    display: none;
+}
+#twobuttons button {
+    border: none;
+    background-color: rgb(0, 165, 110);
+    padding: 30px;
+    border-radius: 30px;
+    color: rgb(0, 227, 151);
+    transition: all 0.5s;
+    position: relative;
+    font-size: 5vw;
+}
+#twobuttons button:hover {
+    font-size: 7vw;
+}
